@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+    />
+    <link rel="stylesheet" href="css/popup.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="js/popup.js"></script>
+  </head>
+
+  <body>
+    <div class="modal-header" id="main">
+      <h1>Chosen one</h1>
+    </div>
+    <div class="first-page" id="output1">
+      <div class="modal-content">
+        <div class="container">
+          <p class="label"><u> No of Dark Patterns </u></p>
+          <div class="tot-count" style="gap: 2%">
+            <div style="font-size: 28px">Count:</div>
+            <div
+              class="number"
+              style="font-size: 20px; margin-top: 3%; color: #002bea"
+            >
+              n/a
+            </div>
+          </div>
+
+          <!-- <p class="">Types</p> -->
+          <div class="pattern-types" id="output1">
+            <div class="types" style="gap: 4px">
+              <div>Scarcity :</div>
+              <div class="scarcity" style="color: #002bea">N/a</div>
+            </div>
+            <div style="display: flex; gap: 4px">
+              <div>Social Proof :</div>
+              <div class="social_Proof" style="color: #002bea">N/a</div>
+            </div>
+            <div style="display: flex; gap: 4px">
+              <div>Misdirection :</div>
+              <div class="misdirection" style="color: #002bea">N/a</div>
+            </div>
+            <div style="display: flex; gap: 4px">
+              <div>Urgency :</div>
+              <div class="urgency" style="color: #002bea">N/a</div>
+            </div>
+            <div style="display: flex; gap: 4px">
+              <div>Sneaking :</div>
+              <div class="sneaking" style="color: #002bea">N/a</div>
+            </div>
+            <div style="display: flex; gap: 4px">
+              <div>Obstruction :</div>
+              <div class="obstruction" style="color: #002bea">N/a</div>
+            </div>
+          </div>
+        </div>
+        <button class="analyze-button" type="button">Detect Patterns</button>
+      </div>
+    </div>
+
+    <center>
+      <div id="output2" style="display: none">
+        <form action="/process" method="post">
+          <div class="search-container">
+            <input type="text" placeholder="Search" name="search" class="search-input" id="searchInput" />
+            <button class="searching" type="button">
+              <i class="fa fa-search search-icon"></i>
+            </button>
+          </div>
+        </form>
+        <div >
+          <div>Type Found :</div>
+          <div class="search-output"> NA</div>
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
