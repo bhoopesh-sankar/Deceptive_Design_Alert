@@ -1,0 +1,128 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    min-height: 180;
+    width: 296px;
+    color: #FFFFFF;
+    background-color: #70d0dd;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+button {
+    background-color: #000000;
+    border: none;
+    font-size: 16px;
+    padding: 12px 12px;
+    margin: 8px 0px 8px 0px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 2px 1px #00131f;
+    width: 100%;
+    color: #D8D8D8;
+    transition: background-color 0.2s ease;
+}
+
+button:active {
+    background-color: #f8f2f2;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #7d7878;
+    text-decoration: none;
+}
+
+.modal-header {
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 3px 2px 1px #00131f;
+    background-color: #05283D;
+    padding: 3px;
+}
+
+.modal-content {
+    padding: 0px 16px 0px 16px;
+}
+
+.modal-footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 3px 3px 8px 3px;
+}
+
+.container {
+    background-color: #70d0dd;
+    margin: 8px 0px 8px 0px;
+    padding: 6px 14px 6px 14px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 2px 1px #70d0dd;
+}
+
+.container p {
+    margin: 0px;
+}
+
+.label {
+    color: #000000;
+    margin: 0px;
+    font-weight: 150;
+}
+
+.number, .total-number {
+    color:  #7689de;
+    font-size: 30px;
+}
+
+.modal-footer a {
+    color: #D8D8D8;
+}
+
+.tot-count{
+    display: flex;
+}
+
+/* .tot-count div {
+    margin: 3px;
+    font-size: 28px;
+} */
+
+.pattern-types {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 12px;
+}  
+
+.types {
+    display: flex;
+}
+.search-input { 
+    margin-right: 30px;    
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    width: 200px;
+    font-size: 16px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .searching {
+    width: 40px;
+    margin-left: -25px; 
+   height: 38px;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+  }
