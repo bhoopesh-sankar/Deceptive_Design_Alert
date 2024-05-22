@@ -1,6 +1,6 @@
 # Deceptive_Design_Alert
 
-## About:
+## About
 
 #### A chrome extension that uses web crawlers and text clustering to identify dark patterns on e-commerce websites. Bert multi-classification model is used to predict dark patterns and alert the users if a pattern is found.
 
@@ -12,7 +12,7 @@
 
 ![image](https://github.com/bhoopesh-sankar/Deceptive_Design_Alert/assets/105773196/8b0d2cd3-28f0-449c-baef-1b235cb09b46)
 
-## Model Accuracy
+## Model Accuracy - Bert Multi-classification model
 
 ![image](https://github.com/bhoopesh-sankar/Deceptive_Design_Alert/assets/105773196/6772fb4f-cdf3-4856-9450-95dcd23bad19)
 
