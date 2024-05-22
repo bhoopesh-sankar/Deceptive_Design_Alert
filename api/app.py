@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from transformers import BertForSequenceClassification, BertTokenizerFast, pipeline
 
-model_path = "C:\\Users\\bhoop\\OneDrive\\Documents\\DPBH\\dpbh\\Deceptive_Design_Alert\\api\\team-chosen-one-text-classification-model"
+model_path = "add your model path here"
 model = BertForSequenceClassification.from_pretrained(model_path)
 tokenizer = BertTokenizerFast.from_pretrained(model_path)
 nlp = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
@@ -47,7 +47,6 @@ def main():
 
 @app.route("/process", methods=["POST"])
 def process_input():
-    print("inside search")
     user_input = request.form["search"]
     result = nlp(user_input)
     print(result)
