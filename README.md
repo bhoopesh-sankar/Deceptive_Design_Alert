@@ -2,7 +2,7 @@
 
 ## About:
 
-#### A chrome extension that uses web crawlers and text clustering to identify dark patterns on e-commerce websites. Bert multi-classification model is used to predict dark patterns and alert the users if apattern is found.
+#### A chrome extension that uses web crawlers and text clustering to identify dark patterns on e-commerce websites. Bert multi-classification model is used to predict dark patterns and alert the users if a pattern is found.
 
 #### The identified patterns are "Scarcity","Urgency","Sneaking","Misdirection","Social Proof","Obstruction" and "Forced Action".
 
